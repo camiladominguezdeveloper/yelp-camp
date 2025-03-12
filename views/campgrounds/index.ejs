@@ -1,9 +1,7 @@
 <% layout('layouts/boilerplate') %>
 <div id="cluster-map"></div>    
 <h1>All Campgrounds</h1>
-    <div>
-        <a href="/campgrounds/new">Add Campground</a>
-    </div>
+
 
     <% for (let campground of campgrounds) { %>
 
@@ -13,7 +11,7 @@
                     <% if(campground.images.length) {%>
                     <img crossorigin="anonymous" class="img-fluid" alt="" src="<%=campground.images[0].url%>">
                     <% } else { %>
-                        <img crossorigin="anonymous" class="img-fluid" alt="" src="https://res.cloudinary.com/dzultoj5g/image/upload/v1736789669/YelpCamp/o1msh9n7espg6miiu5lp.jpg">
+                        <img crossorigin="anonymous" class="img-fluid" alt="" src="https://res.cloudinary.com/dzultoj5g/image/upload/v1741110219/campingPortada_ngv53u.jpg">
                         <% } %>
                 </div>
                 <div class="col-md-8">

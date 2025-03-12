@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://blogskystorage.s3.amazonaws.com/2022/05/skyairline_skyairline_image_141.jpeg");
+    url("https://res.cloudinary.com/dzultoj5g/image/upload/v1741110219/campingPortada_ngv53u.jpg");
     background-size: cover;
     background-position: center;
     text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
